@@ -1,28 +1,42 @@
-.search_bar{
-    margin:20px;
+.search_bar {
+    margin: 20px;
     text-align: center;
 
 }
 
-.search_bar input{
-    width:75%;
+.search_bar input {
+    width: 75%;
 }
 
-.video-item img{
+.video-item img {
     max-width: 64px;
 }
 
-.video-detail .details{
+.video-detail .details {
     margin-top: 10px;
-    padding:10px;
-    border:1px solid #ddd;
+    padding: 10px;
+    border: 1px solid #ddd;
 }
 
-.list-group-item{
+.list-group-item {
     cursor: pointer;
 
 }
 
-.list-group-item:hover{
+.list-group-item:hover {
     background-color: #eee;
+}
+
+td, th {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+svg {
+    height: 150px;
+}
+
+td:first-of-type, td:first-of-type > div{
+    height:200px;
+    width: 250px;
 }
