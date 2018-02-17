@@ -1,8 +1,10 @@
 import {combineReducers} from 'redux';
-import WeatherReducer from './reducer_weather';
+import {reducer as formReducer } from 'redux-form';
+import PostReducer from './reducer_posts';
 
 const rootReducer = combineReducers({
-    weather: WeatherReducer
+    posts:PostReducer,
+    form: formReducer
 });
 
 export default rootReducer;

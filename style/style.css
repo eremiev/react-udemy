@@ -36,7 +36,11 @@ svg {
     height: 150px;
 }
 
-td:first-of-type, td:first-of-type > div{
-    height:200px;
+td:first-of-type, td:first-of-type > div {
+    height: 200px;
     width: 250px;
+}
+
+form a {
+    margin-left: 5px;
 }
